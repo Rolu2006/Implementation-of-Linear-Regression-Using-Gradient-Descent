@@ -21,6 +21,7 @@ Developed by:somalarajurohini
 RegisterNumber:24000337
 */
 ```
+```
 import numpy as np
 import pandas as pd
 from sklearn.preprocessing import StandardScaler
@@ -48,6 +49,7 @@ prediction=np.dot(np.append(1, new_Scaled),theta)
 prediction=prediction.reshape(-1,1)
 pre=scaler.inverse_transform(prediction)
 print(f"Predicted value: {pre}")
+```
 ## Output:
 ![linear regression using gradient descent](sam.png)
 ![Screenshot 2024-11-13 193817](https://github.com/user-attachments/assets/4c7d573c-86e7-4be8-a3c5-17d1756695a7)
